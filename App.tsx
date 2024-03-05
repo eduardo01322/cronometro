@@ -11,7 +11,7 @@ function App(): React.JSX.Element {
   const [formattedtime, setFormattedtime] = useState('00:00:00');
   const [intervalId, setIntervalId] = useState<NodeJS.Timeout | null>(null);
 
-
+  
   return (
     <View style={styles.container}>
       <Image source={require('./src/assets/images/crono.png')}/>
